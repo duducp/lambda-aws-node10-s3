@@ -1,6 +1,6 @@
-# Function Serverless AWS - Node.Js 10
+# Lambda Serverless AWS - Node.Js 10
 
-Essa uma function lambda que captura uma imagem no S3 e converte-a para um tamanho menor utilizando eventos.
+Essa uma lambda que captura uma imagem no S3 e converte-a para um tamanho menor utilizando eventos.
 
 ## Descrição
 
