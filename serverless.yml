@@ -7,11 +7,11 @@ provider:
   memorySize: 256
   iamRoleStatements:
     - Effect: Allow
-    Action:
-      - s3:GetObject
-      - s3:PutObject
-    Resource:
-      - "arn:aws:s3:::*"
+      Action:
+        - s3:GetObject
+        - s3:PutObject
+      Resource:
+        - "arn:aws:s3:::*"
 
 functions:
   optimize:
