@@ -2,7 +2,7 @@ service: serveless
 
 provider:
   name: aws
-  runtime: nodejs10.x
+  runtime: nodejs12.x
   region: sa-east-1
   memorySize: 256
   iamRoleStatements:
