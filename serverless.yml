@@ -17,16 +17,16 @@ functions:
   optimize:
     handler: optimize.handle
     environment:
-      bucket: rocketnodeserverless1995
+      bucket: serverless
     events:
       - s3:
-          bucket: rocketnodeserverless1995
+          bucket: serverless
           event: s3:ObjectCreated:*
           rules:
             - prefix: uploads/
             - siffix: .jpg
       - s3:
-          bucket: rocketnodeserverless1995
+          bucket: serverless
           event: s3:ObjectCreated:*
           rules:
             - prefix: uploads/
